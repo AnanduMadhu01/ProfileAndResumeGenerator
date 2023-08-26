@@ -1,0 +1,164 @@
+#header{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    background: rgb(35, 99, 114);
+    color: white;
+   }
+   #ui{
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+   }
+   .skills{
+    display:block;
+    grid-template-columns:min-content;
+   }
+   #ent{
+    margin-top: 0px;
+   }
+   
+   #progress-bar{
+    background: #CDCDCF;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+   }
+   #progress{
+    background: black;
+    height: 10px;
+    width: 80px;
+   }
+   .topM{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0;
+   
+   }
+   #contacts{
+    
+    padding: 10px;
+   }
+   #skills{
+    background: #CDCDCF;
+    padding: 10px;
+   }
+   #exp1{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+   }
+   p{
+    text-align: justify;
+   }
+   #head{
+    font-weight: bold;
+   }
+   svg{
+    height: 1em;
+    margin-left: 40px;
+   }
+   #left-mrgm{
+    margin-left: 40px;
+    font-weight: bold;
+   }
+   .box{
+    height: 20px;
+    width: 20px;
+    background: black;
+   }
+   #image{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+   }
+   #name{
+    letter-spacing: 0.5em;
+    font-weight: bold;
+    margin-top: 20px;
+   }
+   #web{
+    letter-spacing: 0.2em;
+    margin-top: 30px;
+   }
+   #underline{
+    width: 400px;
+    height: 7px;
+    margin-top: 20px;
+    background: #CECED0;
+   }
+   #exp{
+    background: #CDCDCF;
+    padding: 10px;
+   }
+   #wrapper{
+    padding: 0px;
+    margin-top: 50px;
+   }
+   .box-1{
+	position: relative;
+   }
+   .p1{
+	padding: 9px 10px;
+	font-size: 0.2empx;
+   }
+   .skill-container{
+	width: 90%;
+	background-color: #3f3c3c;
+	margin: 0px 10px;
+    }
+    .html{
+        width: 50%;
+        background-color: white;
+    }
+    .css{
+        width: 80%;
+        background-color: white;
+    }
+    .js{
+        width: 95%;
+        background-color: white;
+    }
+    .jquery{
+        width: 80%;
+        background-color: white;
+    }
+    .skill{
+        text-align: right;
+         padding-top: 2px;
+        padding-bottom: 2px;
+        color: white;
+    }.skill{
+	text-align: right;
+	
+	color: white;
+    }
+    .box-1{
+        position: relative;
+    }
+    li{
+        list-style: none;
+        padding: 9px 10px;
+        font-size: 1em;
+        text-align: left;
+    }
+    .box-3{
+        padding: 5px 50px;
+        margin-top: 30px;
+    }
+    .footer{ 
+        font-size: 1em;
+        font-weight: 300;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        line-height: 18px;
+        margin-top: 5px;
+        
+    }
+    #underline1{
+        width: 630px;
+        height: 2px;
+       
+        background: #060607;
+    }
+    

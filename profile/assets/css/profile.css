@@ -1,0 +1,32 @@
+.edit{
+    padding: 10px;
+    left: 210px;
+}
+.edit1{
+    padding: 10px;
+    left: 210px;
+    top: 5px;
+}
+.edit a{
+    color: #fff;
+    font-size: small;
+}
+#hero:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.editt{
+    position: absolute;
+    left: 200px;
+    font-size: smaller;
+  }
+  .upload{
+    position: absolute;
+    font-size: smaller;
+  }

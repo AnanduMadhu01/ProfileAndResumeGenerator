@@ -1,0 +1,145 @@
+    @media (min-width: 20%) {
+      .modal-dialog {
+        max-width: 20%;
+        margin: auto;
+      }
+    }
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins', sans-serif;
+	}
+	body:before {
+		content: '';
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-image: url("../img/background.PNG");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		-webkit-background-size: cover;
+		background-size: cover;
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		filter: blur(2px);
+	}
+    .modal-header{
+      position: absolute;
+    }
+	.body{
+		background-color: #1c37be ;
+	}
+	.modal-content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		color: var(--bs-modal-color);
+		pointer-events: auto;
+		background-color: var(--bs-modal-bg);
+		background-clip: padding-box;
+		border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+		border-radius: var(--bs-modal-border-radius);
+		outline: 0;
+	}
+	.user_card {
+		height: 100%;
+		width: 40%;
+		margin: auto;
+		margin-top: 7%;
+		margin-bottom: auto;
+		background: #A1B0FC;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+
+	}
+	.brand_logo_container {
+		position: absolute;
+		height: 170px;
+		width: 170px;
+		top: -75px;
+		border-radius: 50%;
+		background: #242ec2;
+		padding: 10px;
+		text-align: center;
+	}
+	.brand_logo {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
+	.form_container {
+		margin-top: 100px;
+	}
+	.login_btn {
+		width: 100%;
+		margin-right: .7em;
+		background: #424D83 !important;
+		color: white !important;
+	}
+	.login_btn:hover{
+		background: #1c37be !important;
+	}
+	.login_btn:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.cancel_btn {
+		width: 100%;
+		margin-right: .7em;
+		background: #424D83 !important;
+		color: white !important;
+	}
+	.cancel_btn:hover{
+		background: #c53a3a !important;
+	}
+	.cancel_btn:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.login_container {
+		padding: 0 2rem;
+	}
+	.input-group-text {
+		background: #424D83 !important;
+		color: white !important;
+		border: 0 !important;
+		padding: 11px;
+		border-radius: 0.25rem 0 0 0.25rem !important;
+	}
+	.input_user,
+	.input_pass:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.custom-checkbox .custom-control-input:radio~.custom-control-label::before {
+		background-color: #424D83 !important;
+	}
+	.form-check-label {
+		margin-bottom: 12px;
+	}
+	a {
+		color: #1c37be;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #061d92;
+	}
+	.radio{
+		padding-left: 2.1em;
+	}
+	input[type=radio] {
+		margin: 5px;
+	}
+	a {
+		background-color: #A1B0FC;
+	}
